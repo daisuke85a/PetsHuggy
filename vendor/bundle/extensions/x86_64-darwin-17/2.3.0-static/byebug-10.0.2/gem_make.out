@@ -1,0 +1,19 @@
+current directory: /Users/daisuke/Desktop/PetsHuggy/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+/Users/daisuke/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20180617-34476-6rw9zd.rb extconf.rb
+creating Makefile
+
+current directory: /Users/daisuke/Desktop/PetsHuggy/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/daisuke/Desktop/PetsHuggy/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling locker.c
+compiling byebug.c
+compiling context.c
+compiling breakpoint.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/daisuke/Desktop/PetsHuggy/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20180617-34476-hmc580/byebug
