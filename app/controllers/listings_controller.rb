@@ -8,6 +8,8 @@ class ListingsController < ApplicationController
   end
 
   def new
+    # 現在のユーザーのリスティングの作成
+    @listing = current_user.listings.build
   end
 
   def create
