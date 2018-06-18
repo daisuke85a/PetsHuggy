@@ -13,8 +13,8 @@
         <li class="<%= 'active' if controller?("listings") && controller.action_name == "description" %>">
           <%= link_to "リスティングの内容", manage_listing_description_path(@listing) %>
         </li>
-        <li class="<%= 'active' if controller?("listings") && controller.action_name == "adress" %>">
-          <%= link_to "住所情報", manage_listing_adress_path(@listing) %>
+        <li class="<%= 'active' if controller?("listings") && controller.action_name == "address" %>">
+          <%= link_to "住所情報", manage_listing_address_path(@listing) %>
         </li>
 
         <li class="<%= 'active' if controller?("listings") && controller.action_name == "price" %>">

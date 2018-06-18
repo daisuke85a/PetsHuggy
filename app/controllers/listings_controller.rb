@@ -40,7 +40,7 @@ class ListingsController < ApplicationController
   def description
   end
 
-  def adress
+  def address
   end
 
   def price

@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   get 'manage-listing/:id/basics' => 'listings#basics', as: 'manage-listing_basics'
   get 'manage-listing/:id/description' => 'listings#description', as: 'manage_listing_description'
-  get 'manage-listing/:id/adress' => 'listings#adress', as: 'manage_listing_adress'
+  get 'manage-listing/:id/address' => 'listings#address', as: 'manage_listing_address'
   get 'manage-listing/:id/price' => 'listings#price', as: 'manage_listing_price'
   get 'manage-listing/:id/photos' => 'listings#photos', as: 'manage_listing_photos'
   get 'manage-listing/:id/calender' => 'listings#calender', as: 'manage_listing_calender'
