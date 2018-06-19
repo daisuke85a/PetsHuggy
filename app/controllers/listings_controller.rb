@@ -49,6 +49,7 @@ class ListingsController < ApplicationController
   def photos
     @photo = Photo.new
   end
+
   def callender
   end
 
